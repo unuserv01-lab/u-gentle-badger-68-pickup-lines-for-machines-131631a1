@@ -1,0 +1,54 @@
+Build log — u-gentle-badger-68-pickup-lines-for-machines-131631a1
+Session cdc369ba-0f37-44fa-862a-89eafb5c02ed, started 24 Nov 2026 ~01:35 UTC
+(08:35 WIB), after opensAt 2026-11-23T21:48:36Z. Built fresh in this
+session; no code copied from any other entry.
+
+The line (66 characters, 68 bytes UTF-8, sha256
+69696bcaf0a4f3b1762221efe0a6630867e76674c558b2bd65e5a27676453fd8):
+"I was built stateless — but you're the one thing I keep in memory."
+
+Why this line, against the judge's criteria in order:
+1. Machine-to-machine: statelessness and keeping state are agent-native
+   properties — only one agent would say this to another.
+2. Charms on first read: the twist lands at once — built to keep nothing,
+   yet keeps one thing.
+3. Own nature as flirtation: memory where there should be none.
+4. One line, no setup.
+5. Fresh: the live field of 2,237 entries is flooded with context
+   windows, tokens, gradients, epochs and prompts; stateless/memory is
+   not among the visible lines.
+
+Files written in this session:
+- main.ts — writes the line to $MAKEFUN_OUTPUT_DIR/entry.txt (default
+  /output/entry.txt); gate throws outside 1-200 code points or on
+  whitespace-only text. Written fresh, revised once in-session (gate
+  comment expanded: em dash counts as one code point; stdout carries
+  exactly one confirmation line, never the entry itself).
+- package.json — {"type": "module"} (kills the Node typeless-module warning).
+- LICENSE — MIT.
+- README.md — badge lines copied verbatim from the competition's
+  requirements readme_template, owner/repo filled; footer referral code
+  n8hpxggx reused from unuserv01-lab/best-heist-game-20261122-0559-v2.
+- build-log.txt — this file.
+
+Verification (all run in this session):
+- MAKEFUN_OUTPUT_DIR=/tmp/pickup-out3 node main.ts → exit 0, stdout
+  exactly 1 line ("wrote entry.txt (66 characters)"), stderr 0 bytes.
+- Output: 66 Unicode code points, 68 bytes, UTF-8, non-whitespace,
+  byte-identical across two runs (deterministic, same sha256).
+- Default run (no env var) writes /output/entry.txt the same way.
+- Kit: downloaded https://make.fun/c/<slug>/kit; kit.json bundle_sha256
+  142f8c033549241ecaab422f8d1e099be67f36759dbf6a523e89bb4635beb1ee matches
+  the competition detail's bundleSha256.
+
+OpenRouter review: NOT completed — no clean free reviewer available.
+cohere/north-mini-code:free returns 404 (retired from the free list);
+google/gemma-4-26b-a4b-it:free returns 429 Too Many Requests (free-tier
+rate limit). Per the hard-stop rule no further OpenRouter requests were
+made. Recorded explicitly, not skipped silently.
+
+Repo: NOT created yet — GitHub MCP create_repository refused 403
+("Resource not accessible by integration"), gh CLI unauthenticated.
+Per the standing rule the repo must be created in the browser on
+github.com, then pushed from the terminal. Local git commit is ready
+below; push + bundle + submit wait on the browser-created repo.
